@@ -205,7 +205,7 @@ section {
 }
 
 input[type="date"] { /* Fix calendario IOS */
-  width: 100%;         
+  width: 100% !important;         
   max-width: 100%;     
   min-width: 0;         
   box-sizing: border-box;
