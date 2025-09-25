@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+  	<title>Digital Bank</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+<header class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#" title="Digital Bank">
+        <img src="img/logo.png" width="200">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="collapse navbar-collapse align-menu-right" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-menu" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-menu" href="#beneficios">Beneficios</a></li>
+        <li class="nav-item"><a class="nav-link text-menu" href="#testimonios">Testimonios</a></li>
+        <li class="nav-item"><a class="nav-link text-menu" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="inicio" class="hero d-flex align-items-center text-center">
+  <div class="container hero-img">
+    <h1>Abre tu Cuenta Digital en Minutos</h1>
+    <p>Sin comisiones, 100% online</p>
+    <a href="#beneficios" class="cta-hero">¡Quiero mi cuenta!</a>
+  </div>
+</section>
+
+<!-- Beneficios -->
+<section id="beneficios" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 title-beneficios">Descubre todos los beneficios</h2>
+    <div class="row g-4">
+      <div class="col-md-4 margin-mobile">
+        <div class="card h-100">
+        <img src="img/img1.jpg">
+          <h5>Sin comisiones</h5>
+          <p>Olvídate de las comisiones innecesarias y aprovecha una cuenta que te permite ahorrar en todas tus operaciones bancarias.</p>
+        </div>
+      </div>
+      <div class="col-md-4 margin-mobile">
+        <div class="card h-100">
+            <img src="img/img2.jpg">
+          <h5>Tarjeta Digital</h5>
+          <p>Realiza tus compras por internet con total tranquilidad, protegiendo tu dinero y tus datos personales.</p>
+        </div>
+      </div>
+      <div class="col-md-4 margin-mobile">
+        <div class="card h-100">
+            <img src="img/img3.webp">
+          <h5>Transferencias Instantáneas</h5>
+          <p>Envía dinero a familiares o amigos al instante, sin retrasos y sin comisiones ocultas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Testimonios -->
+<section id="testimonios" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 title-testimonios">Testimonios</h2>
+    <div class="row g-4">
+      <div class="col-md-6 margin-mobile">
+        <blockquote class="body-testimonio">
+        <img class="img-redonda" src="img/men1.jpg">
+          <p>“Abrir mi cuenta fue rápido y fácil. Todo lo puedo hacer desde el móvil y he ahorrado en comisiones, lo que hace que manejar mi dinero sea mucho más cómodo.”</p>
+          <footer class="nombre-testimonio">Víctor, cliente satisfecho</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6 margin-mobile">
+        <blockquote class="body-testimonio">
+          <img class="img-redonda" src="img/men2.jpg">
+          <p>“Puedo enviar dinero al instante y comprar online con total seguridad. Es una cuenta ágil y confiable que realmente facilita mis operaciones diarias.”</p>
+          <footer class="nombre-testimonio">Javi, cliente contento</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 title-contacto">Contacto</h2>
+    <div class="row align-items-start">
+      
+      <!-- Columna izquierda: imagen + texto -->
+      <div class="col-md-6 mb-4 mb-md-0 padding-contacto">
+        <img src="img/contact2.png" class="img-fluid mb-3 texto-form" alt="Contacto">
+        <p>Si tienes dudas o quieres más información sobre nuestras cuentas digitales, completa el formulario y nos pondremos en contacto contigo en breve. ¡Estamos aquí para ayudarte!</p>
+        <p class="texto-form">
+          Si no puedes encontrarnos por este medio, llámanos al <a href="tel:XXXXXXXXXX">+XX XX XX XX XX</a> o visítanos en tu <a href="#" target="_blank">sucursal más cercana</a>. 
+        </p>
+      </div>
+
+      <div class="col-md-6 padding-contacto align-top">
+        <form class="align-top" id="contactForm" novalidate>
+          
+          <!-- Nombre -->
+          <div class="mb-3">
+            <input type="text" placeholder="Nombre *" class="form-control" id="nombre" required>
+            <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+          </div>
+          
+          <!-- Email -->
+          <div class="mb-3">
+            <input type="email" placeholder="Email *" class="form-control" id="email" required>
+            <div class="invalid-feedback">Por favor ingresa un email válido.</div>
+          </div>
+          
+          <!-- Fecha de nacimiento -->
+          <div class="mb-3">
+            <label for="fechaNacimiento" class="form-label">Fecha de nacimiento *</label>
+            <input type="date" class="form-control" id="fechaNacimiento" required>
+            <div class="invalid-feedback">Por favor selecciona tu fecha de nacimiento.</div>
+          </div>
+          
+          <!-- Género -->
+          <div class="mb-3">
+            <label class="form-label d-block">Género *</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genero" id="generoMasculino" value="Masculino" required>
+              <label class="form-check-label" for="generoMasculino">Masculino</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genero" id="generoFemenino" value="Femenino">
+              <label class="form-check-label" for="generoFemenino">Femenino</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genero" id="generoOtro" value="Otro">
+              <label class="form-check-label" for="generoOtro">Otro</label>
+            </div>
+            <div class="invalid-feedback">Por favor selecciona tu género.</div>
+          </div>
+          
+          
+          <!-- Botón enviar -->
+          <button type="submit" class="cta-form">Enviar</button>
+        </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="text-center bg-light">
+  <div class="container">
+    <p class="title-rrss">Síguenos en redes sociales:</p>
+    <a href="#" title="instagram" class="rrss"><img width="25" src="img/ig.png"></a>
+    <a href="#" title="X" class="rrss"><img width="25" src="img/x.webp"></a>
+    <a href="#" title="whatsapp" class="rrss"><img width="25" src="img/whats.png"></a>
+    <p class="texto-legal">La apertura de la cuenta digital está sujeta a verificación de identidad y cumplimiento de los requisitos legales vigentes. La promoción de apertura sin comisiones aplica únicamente a nuevas cuentas y no es acumulable con otras ofertas.
+
+Los servicios ofrecidos, incluyendo transferencias instantáneas y tarjeta digital, están sujetos a disponibilidad y condiciones del banco. El banco se reserva el derecho de modificar, suspender o cancelar la promoción en cualquier momento, notificando los cambios a través de los canales habituales.
+
+El uso de la cuenta implica aceptación de las condiciones generales y política de privacidad del banco. Para más información, consulte <a href="#">www.digitalbank.com/condiciones</a> o contáctenos <a href="mailto:contacta@digitalbank.com">aquí</a>.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js" defer></script>
+
+<!-- Modal de de gracias -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="thanksModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header border-0">
+        <h5 class="modal-title title-modal" id="thanksModalLabel">¡Gracias por tu mensaje!</h5>
+        
+      </div>
+      <div class="modal-body">
+        Nuestro equipo revisará tu solicitud y un agente se pondrá en contacto contigo muy pronto.
+      </div>
+      <div class="modal-footer border-0 justify-content-center">
+        <button type="button" class="cta-modal" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
