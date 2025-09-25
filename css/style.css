@@ -204,6 +204,13 @@ section {
   justify-content: flex-start; /* alinea contenido arriba */
 }
 
+input[type="date"] {
+  width: auto !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
 .cta-form  {
   border-radius: 6px;
   margin-top: 20px;
