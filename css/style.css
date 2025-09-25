@@ -204,10 +204,11 @@ section {
   justify-content: flex-start; /* alinea contenido arriba */
 }
 
-input[type="date"] {
-  min-width: 100% !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
+input[type="date"] { /* Fix calendario IOS */
+  width: 100%;         
+  max-width: 100%;     
+  min-width: 0;         
+  box-sizing: border-box;
 }
 
 .cta-form  {
