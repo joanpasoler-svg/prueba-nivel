@@ -205,11 +205,10 @@ section {
 }
 
 input[type="date"] {
-  width: auto;
-  min-width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
+  width: auto !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 
 .cta-form  {
   border-radius: 6px;
