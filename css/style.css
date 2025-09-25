@@ -209,6 +209,7 @@ input[type="date"] {
   min-width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
+}
 
 .cta-form  {
   border-radius: 6px;
