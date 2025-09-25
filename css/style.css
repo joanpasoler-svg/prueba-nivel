@@ -204,10 +204,10 @@ section {
   justify-content: flex-start; /* alinea contenido arriba */
 }
 
-input[type="date"] { /* Fix calendario IOS */
-  width: 100%;         
-  max-width: 100%;     
-  min-width: 0;         
+input[type="date"] {
+  width: auto;
+  min-width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
